@@ -1,0 +1,52 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    font-family: Arial,sans-serif;
+    margin:0;
+
+}
+nav a  {
+    text-decoration: none;
+}
+
+nav a:focus  {
+    background: #1d4ed8;
+}
+p {
+    color: #333333;
+    font-size: 18px;
+    line-height: 1.6;
+}
+img {
+  width: 100px;
+  height: 100px;
+  display: block; /* Prevents unwanted bottom spacing */
+}
+
+.card {
+    border: 1px solid #e5e7eb;    
+    padding: 24px;
+    margin-bottom: 20px;
+}
+
+.btn:hover {
+    background: #1d4ed8;
+}
+.btn {
+    background: #2563eb;
+}
+
+#contact {
+    background-color: #f9fafb;
+}
+
+h1, h2, h3 {
+    font-family: Arial sans-serif;
+}
+
+
+section {
+    padding:  64px 24px;
+}
